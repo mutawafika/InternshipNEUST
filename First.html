@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title >Mutawafika</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style1.css">
+	<link rel="stylesheet" type="text/css" href="CSS/slide.css">
+</head>
+
+<body class="hero" style="background-image:url('BEACH.jpg');" >
+
+
+		<ul>
+
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">Places</a></li>
+  <li><a href="contact.asp">Our Tour Guide</a></li>
+  <li><a href="regencies.html">Regencies</a></li>
+  <li><a href="about.asp">About</a>
+  <li><a href="#" style="margin-left: 700px;"> Logout</a></li>
+
+</ul>
+	<h1 class="header">GUIDE TO WEST SUMATERA</h1><br><br>
+
+	<div class="slideshow-container">
+
+ 
+<div class="mySlides fade container">
+  <div class="numbertext">1 / 3</div>
+  <img src="BUKITTINGGI.jpg" style="width:100%; height: 800px ;">
+   <h5 class=" centered " style="font-family: arial; font-size: 100px;"> BUKITTINGGI </h5>
+</div>
+
+<div class="mySlides fade container ">
+  <div class="numbertext">2 / 3</div>
+  <img src="PARIAMAN.jpg" style="width:100% ; height: 800px; ">
+  <h3 class=" centered " style="font-family: arial; font-size: 100px;"> PARIAMAN </h3>
+</div>
+
+<div class="mySlides fade container">
+  <div class="numbertext">3 / 3</div>
+  <img src="SOLOKSELATAN.jpg" style="width:100%; height: 800px;">
+   <h4 class=" centered " style="font-family: arial; font-size: 100px;"> SOLOK SELATAN </h4>
+    
+</div>
+<div class="mySlides fade container">
+  <div class="numbertext">3 / 3</div>
+  <img src="PADANGPANJANG.jpg" style="width:100%; height: 800px;">
+   <h6 class=" centered " style="font-family: arial; font-size: 100px;"> PADANG PANJANG </h4>
+    
+</div>
+<div class="mySlides fade container">
+  <div class="numbertext">3 / 3</div>
+  <img src="PAYAKUMBUH.jpg" style="width:100%; height: 800px;">
+   <h7 class=" centered " style="font-family: arial; font-size: 100px;"> PAYAKUMBUH </h4> 
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 2 seconds
+}
+</script>
+
+
+
+	<div><br>
+
+		<div > <br>
+
+			<div class="row">
+ 			 <div class="column">
+ 			 	<img src="MALIN.jpg" width="300px;" height="250px;">
+ 			 </div>
+			 </div>
+			  <div class="column">
+			  	<img src="MEDAN.jpg" width="300px;" height="250px;">
+			  </div>
+			
+	</div>
+
+
+	
+
+
+
+</body>
+</html>

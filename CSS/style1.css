@@ -1,0 +1,123 @@
+.body{
+	background-color: #379683;
+	margin: 0;
+}
+.h1{
+	text-align: center;
+	font-family: arial;
+	font-size: 50px;
+}
+.p{
+	font-size: 20px;
+	text-align: center;
+}
+ .blue{
+ 	color: red;
+ }
+
+ #image1{
+ 	width: 600px;
+ 	display: block;
+ 	margin: 0 auto;
+ }
+ .padded-content{
+ 	padding: 15px 35px 15px 35px;
+
+ }
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:transparent;
+}
+
+li {
+  float: left;
+}
+
+li a {
+	font-family: arial;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #05386B;
+}
+
+.div2{
+	width: 1000px;
+ 	display: block;
+ 	margin: 0 auto;
+ 	background-color: white;
+
+}
+.header{
+	font-size: 150px;
+	font-family: arial;
+	text-align: center;
+	padding: 80px 50px;
+	color: white;
+}
+
+.header2{
+	font-size: 110px;
+	font-family: arial;
+	text-align: center;
+	padding: 80px 50px;
+	color: white;
+}
+
+
+.hero{
+	background-repeat: no-repeat;
+	position: relative;
+	height: 800px;
+	width: 100%;
+	background-size: cover;	
+	margin: 0;
+}
+.box{
+  width: auto;
+  padding: 50px;
+  background-color: white;
+
+}
+.imageround{
+	border-color: #transparent;
+    border-width: 5px;
+    border-radius: 50%;
+    height:150px;
+    width: 150px;
+}
+.textimage{
+	font-family: arial;
+}
+.column {
+  float: left;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+ 
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
